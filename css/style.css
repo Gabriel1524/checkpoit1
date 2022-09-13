@@ -13,11 +13,11 @@ body {
 /* Header */
 
 header {
-    background-color: #C4C4C4;
+    background-color: white;
     width: 100%;
     height: 160px;
     justify-content: space-evenly;
-    border: 3px solid green;
+    border: 3px solid white;
     display: flex;
     align-items: center;
     
@@ -50,7 +50,7 @@ header {
 .nav > a {
     min-width: 165px;
     padding: 15px;
-    border: 3px solid green;
+    border: 3px solid black;
     border-radius: 20px;
     background-color: white;
     color: black;
@@ -64,7 +64,7 @@ header {
 
 .nav > a:hover {
     font-size: 0.8em;
-    color: green;
+    color: black;
 }
 
 /* Main */
@@ -113,7 +113,7 @@ main {
     gap: 30px;
     background: white;
     border-radius: 20px;
-    border: 3px solid green;
+    border: 3px solid black;
 }
 
 .card > img {
@@ -165,7 +165,7 @@ main {
 footer {
     width: 100%;
     background: #C4C4C4;
-    border: 3px solid green;
+    border: 3px solid black;
 }
 
 .contacts {
@@ -180,7 +180,7 @@ footer {
 .contact-card > a > img {
     width: 150px;
     border-radius: 155px;
-    border: 5px solid green;
+    border: 5px solid   black;
     align-items: center;
 }
 
